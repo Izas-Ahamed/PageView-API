@@ -1,0 +1,15 @@
+{
+  "name": "pageview-api",
+  "version": "1.0.0",
+  "description": "To Count The Page View",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "ThunderX",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
