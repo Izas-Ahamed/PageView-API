@@ -77,7 +77,7 @@ var writeClicksCount = () => {
 
 var resetFile = () => {
   data = { pageViewed: 0, clicks: 0 };
-  fs.writeFileSync("views.json", data, (err) => {
+  fs.writeFileSync("views.json", JSON.stringify(data), (err) => {
     console.log(err);
   });
 };
